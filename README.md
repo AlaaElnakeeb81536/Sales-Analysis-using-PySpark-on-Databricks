@@ -33,8 +33,10 @@ Geographical Analysis
 2. Total Sales By Each Country: Analyzes sales distribution across different countries to identify key markets.
 Order Source Analysis
 3. Total Sales by Order Source: Examines sales trends based on order sources (online, in-store, mobile app) to optimize marketing strategies.
-Dashboard
 
+
+## Dashboard
+Visualize the key insights obtained from the analysis questions on the Sales Analysis Dashboard.
 [View Interactive Dashboard](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4026566508639073/3934584737389230/604712118645609/latest.html)
 
 ## Requirements

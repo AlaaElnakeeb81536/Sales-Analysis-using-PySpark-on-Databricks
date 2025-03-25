@@ -1,71 +1,41 @@
-# Sales Analysis using PySpark on Databricks
-
-## Project Overview
-This project leverages PySpark on Databricks to analyze sales data, uncovering valuable insights into customer behavior, product performance, and sales trends. The analysis helps identify high-value customers, popular products, seasonal patterns, and geographical sales distribution.
-
-![Sales Dashboard](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4026566508639073/3934584737389230/604712118645609/latest.html)
+### Sales-Analysis-using-PySpark-on-Databricks
+## Introduction
+This project is designed to uncover valuable insights into sales trends, customer behavior, and product performance.
 
 ## Datasets
-The analysis utilizes two primary datasets:
+The analysis makes use of two primary datasets:
 
-1. **Sales Transaction Dataset**:
-   - Customer ID
-   - Product ID
-   - Order Date
-   - Location (Country)
-   - Source of Order (Restaurant, Online, Delivery)
-   - Other transaction details
+## Sales Transaction Dataset:
 
-2. **Product Information Dataset**:
-   - Product ID
-   - Product Name
-   - Product Category
-   - Price
-   - Other product attributes
+Contains detailed information about each sales transaction.
+Includes customer ID, product ID, quantity purchased, transaction date, and total amount spent.
+Product Information Dataset:
 
-## Key Analyses Performed
+Includes product category, product description, and product price.
+Analysis
+The analysis is structured around key aspects of the business:
 
-### Customer Insights
-- **Total Amount Spent by Customer**: Identifies high-value customers
-- **Visit Frequency**: Analyzes customer loyalty patterns
+Customer Spending
+Total Amount Spent by Customer: Analyzes the total amount spent by each customer to identify high-value customers.
 
-### Sales Trends
-- **Monthly Sales Patterns**: Reveals seasonal trends
-- **Yearly Sales Growth**: Tracks annual performance
-- **Quarterly Sales Breakdown**: Identifies business cycles
+Frequency of Customer Visiting Restaurant: Examines the frequency of customer visits to understand customer loyalty patterns.
 
-### Product Analysis
-- **Product Popularity**: Measures purchase frequency
-- **Category Performance**: Compares sales across food categories
+Sales Trends
+Total Amount Spent by Each Food Category: Categorizes sales based on food categories to identify popular and less popular items.
 
-### Geographical Analysis
-- **Country-wise Sales**: Identifies top-performing markets
-- **Regional Preferences**: Reveals location-based trends
+Total Amount of Sales in Each Month: Analyzes monthly sales trends to identify seasonal patterns and peak sales periods.
 
-### Order Channel Analysis
-- **Sales by Order Source**: Compares performance across channels (Restaurant, Online, Delivery)
+Yearly Sales: Investigates annual sales trends to assess year-over-year growth and identify growth opportunities.
 
-## Technical Implementation
-- **PySpark**: For large-scale data processing
-- **Databricks**: Cloud-based platform for collaborative analytics
-- **SQL & DataFrame API**: For flexible data manipulation
-- **Visualization**: Built-in Databricks visualization tools
-
-## Dashboard
-The project includes an interactive dashboard that visualizes all key metrics:
-- Customer value segmentation
-- Sales trend charts
-- Product performance heatmaps
-- Geographical sales distribution
-- Channel comparison metrics
+Product Performance
+How Many Times Each Product Purchased: Determines the popularity of each product based on purchase frequency.
+Geographical Analysis
+Total Sales By Each Country: Analyzes sales distribution across different countries to identify key markets.
+Order Source Analysis
+Total Sales by Order Source: Examines sales trends based on order sources (online, in-store, mobile app) to optimize marketing strategies.
+Dashboard
 
 [View Interactive Dashboard](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4026566508639073/3934584737389230/604712118645609/latest.html)
-
-## How to Run
-1. Import the notebook into your Databricks workspace
-2. Upload the sales and product datasets
-3. Update the file paths in the first cell
-4. Run all cells sequentially
 
 ## Requirements
 - Databricks workspace
@@ -73,10 +43,3 @@ The project includes an interactive dashboard that visualizes all key metrics:
 - Python 3.7+
 - Sample sales data in CSV format
 
-## Insights Applied
-The analysis helps:
-- Optimize marketing spend
-- Improve inventory planning
-- Enhance customer segmentation
-- Identify growth opportunities
-- Evaluate channel effectiveness
